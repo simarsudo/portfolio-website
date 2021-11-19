@@ -1,0 +1,99 @@
+body {
+  color: #F5F5F5;
+  background-color: #282828;
+
+}
+
+
+/* Left navigatiojn bar */
+.left_nav_bar {
+  height: 100%;
+  width: 8.5%;
+  position: fixed;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+  background-color: #1d1d1d;
+
+
+  }
+
+  /* Contains Symbol and Symbol name */
+  .website_symbol {
+    background-color: black;
+    margin: 0;
+    padding: 10px
+  }
+
+/* Symbol S */
+.portfolio_symbol {
+  display: block;
+  width: 80%;
+  height: 80%;
+  padding: 5% 0 0 0;
+  margin: auto;
+}
+
+/* Name After the symbol */
+.portfolio_symbol_name {
+  padding-left: 3%;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+  /************************************************************/
+  /* main nav-items */
+.navbar {
+  margin: 5%;
+  margin-top: 70%;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+  /* cointainer for nav-items */
+.card {
+  border-right-width: 0;
+  border-left-width: 0;
+  background-color: #1d1d1d;
+  margin-top: 70%;
+  text-align: center;
+  font-size: 1rem;
+  border-color: #282828;
+}
+
+  /* nav-items */
+.list-group-item {
+  background-color: #1d1d1d;
+  color: #909096;
+  border-color: #282828;
+  margin: 3px;
+  font-size: 1.1rem
+}
+
+.list-group-item:hover {
+  color: #3FC1C9
+}
+
+  /************************************************************************/
+  /* font-awesome icons */
+.icons {
+  margin-top: 50%;
+  text-align: center;
+
+}
+
+.fab {
+  font-size: 1.2rem;
+  margin: auto;
+  padding: 3%;
+  color: #909096;
+
+}
+
+.fab:hover {
+  color: #3FC1C9
+}
